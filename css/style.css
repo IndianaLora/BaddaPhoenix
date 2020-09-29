@@ -23,6 +23,7 @@ header {
     margin-bottom: 30px;
     position: relative;
     width: 100%;
+    
 }
 
 .wrapper {
@@ -83,6 +84,8 @@ header nav a:hover {
 
 .vers-container{
     display: flex;
+    background-image: url(../img/glaxy4.gif);
+    height:220px;
 }
 .card{
 
@@ -90,7 +93,14 @@ header nav a:hover {
     margin-top: 2%;
     margin-left: 3%;
     margin-right: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.git{
+    font-size:48px;
+    color:rgb(235, 212, 212);
+    margin-left: 50%;
 }
 .footer{
-    margin-top: 7%; 
+  margin-top: 1%;
 }
