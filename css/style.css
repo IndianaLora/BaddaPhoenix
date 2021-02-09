@@ -8,18 +8,22 @@ body {
 }
 
 .indiana{
-    border-color: rosybrown;
+    border-color: rgb(97, 179, 151);
     border-width: 10px;
     border-style: solid;
     border-radius:10px;
     border-radius: 50%;
     margin-left: 2%;
 }
-
+.skills{
+    background-image: url('../img/bg.jpg') ;
+    background-repeat: no-repeat;
+   background-size: cover;
+}
 header {
     width: 100%;
     overflow: hidden;
-    background: rosybrown;
+    background: rgb(97, 179, 151);
     margin-bottom: 30px;
     position: relative;
     width: 100%;
@@ -47,7 +51,7 @@ header nav {
 header nav a {
 
     display: inline-block;
-    color: #f3d9de;
+    color: #eedade;
     text-decoration: none;
     padding: 10px 20px;
     line-height: normal;
@@ -104,4 +108,4 @@ header nav a:hover {
 .footer{
   margin-top: 1%;
 }
-/
+
