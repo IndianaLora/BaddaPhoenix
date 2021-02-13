@@ -1,9 +1,9 @@
 body {
   font-family: Lobster;
   background-color: rgb(6, 9, 70);
-  /* background-image: url("../img/p2.gif"); */
+  background-image: url("../img/p2.gif");
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   background-repeat: repeat;
 }
 
