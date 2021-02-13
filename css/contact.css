@@ -1,11 +1,18 @@
 * {
   color: #eedade;
+  margin: 0%;
 }
 body {
   font-family: Lobster;
   background-color: rgb(6, 9, 70);
 }
+.container{
+  margin-top: 1%;
 
+}
+#contact{
+  margin-bottom: 5%;
+}
 header {
   width: 100%;
   overflow: hidden;
@@ -70,12 +77,58 @@ header nav a:hover {
   color: rgb(235, 212, 212);
   margin-left: 40%;
 }
+i {
+  color: #eedade;
+}
+#wh {
+  width: 50px;
+}
+#arrow {
+  width: 300px;
+}
+#indi {
+  width: 400px;
+  margin-left: 50%;
+  position: absolute;
+  margin-top: 0%;
+  border: 2px transparent;
+  border-radius: 20px;
+  box-shadow: 5px 20px 16px 2px rgb(24, 2, 2, 0.8);
+}
+#separator {
+  margin-top: 6%;
+  color: #eedade;
+}
+.project-card {
+  display: flex;
+  margin-top: 5%;
+  border: 2px transparent;
+  border-radius: 5px;
+  box-shadow: 5px 20px 16px 2px rgb(24, 2, 2, 0.8);
+}
+.card{
+  background-image: linear-gradient(to right top, #051937, #003347, #1c4c4e, #496356, #737867);
+  color: rgb(6, 9, 70);
+  display: flex;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  border: 2px transparent;
+  border-radius: 5px;
+  box-shadow: 5px 20px 16px 2px rgb(24, 2, 2, 0.8);
+}
+}
 i :hover {
   background: blueviolet;
 }
 .footer {
   height: 6%;
-  margin-top: 13%;
+  margin-top: 10%;
   margin-bottom: 0%;
   background-color: rgb(233, 40, 40);
   color: rgb(235, 212, 212);

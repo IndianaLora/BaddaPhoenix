@@ -2,13 +2,14 @@ body {
   font-family: Lobster;
   background-color: rgb(6, 9, 70);
 }
+#welcome {
+  color: #eedade;
+}
 header {
   width: 100%;
   overflow: hidden;
   background: rgb(233, 40, 40);
-  margin-bottom: 100%;
   position: fixed;
-  width: 100%;
 }
 
 .wrapper {
@@ -61,11 +62,9 @@ header nav a:hover {
   line-height: 100px;
 }
 
-img{
-  
+img {
   width: 500px;
 }
-
 
 .git {
   font-size: 48px;
@@ -74,6 +73,11 @@ img{
 }
 i :hover {
   background: blueviolet;
+}
+#load {
+  margin-top: 15%;
+  margin-left: 40%;
+  width: 200px;
 }
 .footer {
   height: 6%;
