@@ -20,12 +20,12 @@
     <header class="logo">
         <div class="wrapper">
             <div class="logobox">
-              <h1>Get to know me more!!</h1>
+                <h1>Welcome to my space!</h1>
             </div>
             <nav class="menu">
-              <a  href="index.html">Portfolio</a>
-                <a  href="portafolio.html">Bounderies</a>
-                
+                <a  href="index.html">Bounderies</a>
+                <a  href="portafolio.html">Portfolio</a>
+              
                 
                 <i class="btn fa fa-github git"></i>
               </nav>

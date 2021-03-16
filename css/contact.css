@@ -4,22 +4,29 @@
 }
 body {
   font-family: Lobster;
-  background-color: rgb(6, 9, 70);
+  background-image: linear-gradient(
+    to right top,
+    #0a1f80,
+    #041597,
+    #161a64,
+    #131255,
+    #0f0a47
+  );
 }
-.container{
+.container {
   margin-top: 1%;
-
 }
-#contact{
+#contact {
   margin-bottom: 5%;
 }
 header {
   width: 100%;
   overflow: hidden;
-  background: rgb(233, 40, 40);
+  background: rgb(1, 3, 34);
   margin-bottom: 30px;
   position: relative;
   width: 100%;
+  box-shadow: 5px 2px 6px 2px rgba(14, 13, 13, 0.8);
 }
 
 .wrapper {
@@ -54,7 +61,7 @@ header nav a {
 }
 
 header nav a:hover {
-  background: blueviolet;
+  background: rgb(182, 178, 202);
   border-radius: 50px;
 }
 
@@ -88,16 +95,24 @@ i {
 }
 #indi {
   width: 400px;
-  margin-left: 50%;
+  height: 500px;
+  margin-left: 55%;
   position: absolute;
   margin-top: 0%;
-  border: 2px transparent;
+  border: 5px #003a29;
+  border-style:initial;
   border-radius: 20px;
-  box-shadow: 5px 20px 16px 2px rgb(24, 2, 2, 0.8);
+  box-shadow: 5px 5px 16px 20px rgba(77, 73, 73, 0.8);
 }
 #separator {
   margin-top: 6%;
   color: #eedade;
+}
+#exp {
+  margin-top: 25%;
+  margin-left: 50%;
+  margin-bottom: 15%;
+  position: sticky;
 }
 .project-card {
   display: flex;
@@ -106,8 +121,13 @@ i {
   border-radius: 5px;
   box-shadow: 5px 20px 16px 2px rgb(24, 2, 2, 0.8);
 }
-.card{
-  background-image: linear-gradient(to right top, #051937, #003347, #1c4c4e, #496356, #737867);
+.text-k {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 18%;
+}
+.card {
+  background-color: rgb(0, 0, 0);
   color: rgb(6, 9, 70);
   display: flex;
   margin-top: 2%;
@@ -118,11 +138,12 @@ i {
   height: 300px;
   text-align: center;
   padding: 20px;
+  border-top: #111111;
   border: 2px transparent;
   border-radius: 5px;
   box-shadow: 5px 20px 16px 2px rgb(24, 2, 2, 0.8);
 }
-}
+
 i :hover {
   background: blueviolet;
 }
@@ -130,7 +151,7 @@ i :hover {
   height: 6%;
   margin-top: 10%;
   margin-bottom: 0%;
-  background-color: rgb(233, 40, 40);
+  background: rgb(0, 3, 34);
   color: rgb(235, 212, 212);
 }
 .but {
