@@ -1,5 +1,11 @@
-function seccion(){
+const bounderies = [
+  { name: "Emphaty", message: "" },
+  { name: "Resilence", message: "" },
+  { name: "Mindfullness", message: "" },
+  { name: "Honesty", message: "" },
+];
 
-document.getElementById('sec').innerHTML('seccion')
-
-}
+const bounderiesMap = bounderies.map((boundery) => {
+  return boundery.name;
+});
+console.log(bounderiesMap);
