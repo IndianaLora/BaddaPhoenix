@@ -1,3 +1,9 @@
+const body = document.body;
+const h1 = document.createElement("h1");
+h1.textContent = "Here i leave you my daily reminders";
+h1.id = "emp";
+body.append(h1);
+
 const bounderies = [
   { name: "Emphaty", message: "" },
   { name: "Resilence", message: "" },
@@ -5,7 +11,7 @@ const bounderies = [
   { name: "Honesty", message: "" },
 ];
 
-const bounderiesMap = bounderies.map((boundery) => {
+const bounderyMap = bounderies.map((boundery) => {
   return boundery.name;
 });
-console.log(bounderiesMap);
+console.log(bounderyMap);
