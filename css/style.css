@@ -161,5 +161,7 @@ i :hover {
   margin-bottom: 0%;
   background: rgb(0, 3, 34);
   color: rgb(235, 212, 212);
-  font-size: 5px;
+}
+.text-helper{
+  margin-top: 5%;
 }
