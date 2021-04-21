@@ -1,6 +1,6 @@
 body {
   font-family: Lobster, "Lucida Grande", Tahoma, Sans-Serif;
-  background-image: url("/img/galaxy.gif");
+  background-image: url('/img/galaxy.gif');
 }
 #welcome {
   color: rgb(238, 218, 222);
@@ -77,3 +77,4 @@ i :hover {
   background-color: rgb(233, 40, 40);
   color: rgb(235, 212, 212);
 }
+

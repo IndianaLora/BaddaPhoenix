@@ -153,3 +153,9 @@ i :hover {
 .text-helper {
   margin-top: 5%;
 }
+.project-card {
+  width: 1000px;
+}
+.img-skills {
+  width: 350px, height=250px;
+}
