@@ -1,59 +1,45 @@
-var legendContainer = document.getElementById("skills-legend");
+const legendContainer = document.getElementById("skills-legend");
 
+//Created React legend
 var legendOne = document.createElement("div");
-legendOne.style.backgroundColor = "blue";
-legendOne.innerHTML="Hello"
+legendOne.style.backgroundColor = "lightblue";
+legendOne.className = "legend-style";
 
-var legendOne = document.createElement("div");
+var react = document.createElement("h5");
+react.textContent = "React";
+
+legendOne.append(react);
+legendContainer.append(legendOne);
+
+//Created js legend
+var legendTwo = document.createElement("div");
 legendTwo.style.backgroundColor = "pink";
+legendTwo.className = "legend-style";
 
-var legendOne = document.createElement("div");
+var js = document.createElement("h5");
+js.textContent = "Javascript";
+
+legendTwo.append(js);
+legendContainer.append(legendTwo);
+
+//Created Css legend
+var legendThree = document.createElement("div");
 legendThree.style.backgroundColor = "yellow";
+legendThree.className = "legend-style";
 
-var legendOne = document.createElement("div");
+var css = document.createElement("h5");
+css.textContent = "Css";
+
+legendThree.append(css);
+legendContainer.append(legendThree);
+
+//Created Html legend
+var legendFour = document.createElement("div");
 legendFour.style.backgroundColor = "purple";
+legendFour.className = "legend-style";
 
-legendContainer.appendChild(legendTwo);
+var html = document.createElement("h5");
+html.textContent = "html";
 
-// <!--
-//       <h1 id="separator" class="text-center">My projects</h1>
-//     </div>
-//     <div class="card-react">
-//       <h1>Language:</h1>
-//       <h2>C#</h2>
-//   </div>
-//   <div class="card-php1">
-//     <h1>Language:</h1>
-//     <h2>C#</h2>
-// </div>
-// <div class="card-c">
-//   <h1>Language:</h1>
-//   <h2>C#</h2>
-// </div>
-// <div class="card-jquery">
-//   <h1>Language:</h1>
-//   <h2>C#</h2>
-// </div>
-// <div class="card-php">
-//   <h1>Language:</h1>
-//   <h2>C#</h2>
-// </div>
-
-// <div class="project-card">
-//   <img src="./img/work.png"  />
-// </div>
-// </div>
-//     <div class="project-card">
-//         <img src="./img/work3.png" />
-
-//     </div>
-//     <div class="project-card">
-//         <img src="./img/work5.png" />
-
-//       </div>
-//       <div class="project-card">
-//         <img src="./img/work7.png"/>
-//       </div>
-//       <div class="project-card">
-//         <img src="./img/work1.png" />
-//       </div> -->
+legendFour.append(html);
+legendContainer.append(legendFour);

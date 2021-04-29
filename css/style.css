@@ -28,7 +28,6 @@ body {
   margin-left: 3%;
 }
 .presentation-2 {
-
   position: absolute;
   margin-left: 2%;
   margin-top: 2%;
@@ -36,18 +35,24 @@ body {
 .paragraph {
   position: absolute;
 }
-.skills{
+.skills {
   margin-top: 30%;
 }
-#skills-text{
+#skills-text {
   margin-left: 45%;
 }
-#img-skills{
+#img-skills {
   width: 400px;
   margin-left: 50%;
 }
-img{
+img {
   width: 400px;
+}
+.legend-style {
+  display: grid;
+  grid-row: auto;
+  width: 85px;
+  margin-left: 90%;
 }
 .card {
   color: rgb(15, 15, 15);
