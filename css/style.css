@@ -2,26 +2,52 @@ body {
   font-family: Lobster;
   background-image: linear-gradient(
     to right top,
-    #0423af,
-    #09188d,
-    #161a64,
-    #131255,
-    #0f0a47
+    #36ecb6,
+    #809b7d,
+    #08b8a9,
+    #c715af,
+    #d019d6
   );
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
 }
-#emp {
-  color: #eedade;
+#w-hand {
+  width: 40px;
 }
-.indiana {
+#indiana {
+  width: 200px;
+  margin-top: 2%;
+  margin-left: 130%;
+  border-radius: 10%;
+  box-shadow: 5px 5px 6px 10px rgba(138, 130, 130, 0.8);
+}
+#pc {
   border-color: rgb(201, 156, 33);
-  border-width: 10px;
-  border-style: solid;
-  border-radius: 10px;
-  border-radius: 50%;
+  width: 200px;
   margin-left: 3%;
+}
+.presentation-2 {
+
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.paragraph {
+  position: absolute;
+}
+.skills{
+  margin-top: 30%;
+}
+#skills-text{
+  margin-left: 45%;
+}
+#img-skills{
+  width: 400px;
+  margin-left: 50%;
+}
+img{
+  width: 400px;
 }
 .card {
   color: rgb(15, 15, 15);
