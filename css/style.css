@@ -12,13 +12,20 @@ body {
   background-size: cover;
   background-repeat: repeat;
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  overflow: hidden;
+}
 #w-hand {
   width: 40px;
 }
 #indiana {
+  position: absolute;
   width: 200px;
-  margin-top: 2%;
-  margin-left: 130%;
+  margin-top: 6%;
+  margin-left: 15%;
   border-radius: 10%;
   box-shadow: 5px 5px 6px 10px rgba(138, 130, 130, 0.8);
 }
@@ -27,32 +34,43 @@ body {
   width: 200px;
   margin-left: 3%;
 }
-.presentation-2 {
-  position: absolute;
+.presentation{
   margin-left: 2%;
   margin-top: 2%;
 }
+
 .paragraph {
   position: absolute;
 }
 .skills {
-  margin-top: 30%;
+  margin-top: 35%;
+  display: flex;
+  flex-wrap: wrap;
 }
 #skills-text {
-  margin-left: 45%;
+  position: absolute;
+  margin-left: 20%;
 }
 #img-skills {
-  width: 400px;
-  margin-left: 50%;
+  width: 430px;
+  margin-left: 40%;
+  display: flex;
+  flex-wrap: wrap;
 }
-img {
-  width: 400px;
+
+#skills-legend {
+  display: flex;
+  margin-left: 48%;
+  color: white;
+  min-width: 10px;
+  padding: 1%;
 }
 .legend-style {
-  display: grid;
-  grid-row: auto;
-  width: 85px;
-  margin-left: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 82px;
+  
 }
 .card {
   color: rgb(15, 15, 15);
@@ -176,17 +194,9 @@ i :hover {
 }
 .footer {
   height: 6%;
+  width: 100%;
   margin-top: 10%;
   margin-bottom: 0%;
   background: rgb(0, 3, 34);
   color: rgb(235, 212, 212);
-}
-.text-helper {
-  margin-top: 5%;
-}
-.project-card {
-  width: 1000px;
-}
-.img-skills {
-  width: 350px, height=250px;
 }
