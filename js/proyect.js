@@ -1,17 +1,30 @@
 const proyectSection = document.getElementById("proyects-section");
-const img=document.createElement('img');
+
+var img=document.createElement('img');
+img.src="./img/bolsa.png"
+
+proyectSection.append(img)
 
 
-const proyectPhotos=[
-    {tittle:"Jobs",src="./img/bolsa.png"},
-    {tittle:"AfWorld",src="./img/afWorld.jpeg"},
-    {tittle:"Itla",src="./img/itla.png"},
-    {tittle:"Elecciones",src="./img/Votacion.png"},
-    {tittle:"Pokedex",src="./img/pokedex.png"}
-]
+var img1=document.createElement('img');
+img1.src="./img/afWorld.jpeg"
 
-proyectPhotos.map((proyects)=>{
-    return(proyectSection.innerHTML=proyects.tittle)
-   
-})
+proyectSection.append(img1)
+
+
+var img2=document.createElement('img');
+img2.src="./img/itla.png"
+
+proyectSection.append(img2)
+
+var img3=document.createElement('img');
+img3.src="./img/Votacion.png"
+
+proyectSection.append(img3)
+
+
+var img4=document.createElement('img');
+img4.src="./img/pokedex.png"
+
+proyectSection.append(img4)
 
