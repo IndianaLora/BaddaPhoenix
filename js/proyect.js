@@ -1,30 +1,31 @@
 const proyectSection = document.getElementById("proyects-section");
 
-var img=document.createElement('img');
-img.src="./img/bolsa.png"
+var img = document.createElement("img");
+img.src = "./img/bolsa.png";
+img.className = "img-proyects";
 
-proyectSection.append(img)
+proyectSection.append(img);
 
+var img1 = document.createElement("img");
+img1.src = "./img/afWolrd.jpeg";
+img1.className = "img-proyects";
 
-var img1=document.createElement('img');
-img1.src="./img/afWorld.jpeg"
+proyectSection.append(img1);
 
-proyectSection.append(img1)
+var img2 = document.createElement("img");
+img2.src = "./img/itla.png";
+img2.className = "img-proyects";
 
+proyectSection.append(img2);
 
-var img2=document.createElement('img');
-img2.src="./img/itla.png"
+var img3 = document.createElement("img");
+img3.src = "./img/Votacion.png";
+img3.className = "img-proyects";
 
-proyectSection.append(img2)
+proyectSection.append(img3);
 
-var img3=document.createElement('img');
-img3.src="./img/Votacion.png"
+var img4 = document.createElement("img");
+img4.src = "./img/pokedex.png";
+img4.className = "img-proyects";
 
-proyectSection.append(img3)
-
-
-var img4=document.createElement('img');
-img4.src="./img/pokedex.png"
-
-proyectSection.append(img4)
-
+proyectSection.append(img4);
