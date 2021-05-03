@@ -13,8 +13,7 @@ body {
   background-repeat: repeat;
 }
 .container {
-  display: flex;
-  flex-wrap: wrap;
+ 
   margin: auto;
   overflow: hidden;
 }
@@ -34,7 +33,7 @@ body {
   width: 200px;
   margin-left: 3%;
 }
-.presentation{
+.presentation {
   margin-left: 2%;
   margin-top: 2%;
 }
@@ -49,11 +48,12 @@ body {
 }
 #skills-text {
   position: absolute;
-  margin-left: 20%;
+  margin-top: 3%;
+  margin-left: 1%;
 }
 #img-skills {
   width: 430px;
-  margin-left: 40%;
+  margin-left: 10%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -70,7 +70,15 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   width: 82px;
-  
+  background-color: #d019d6;
+}
+#proyects-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.jobs {
+ 
+  width: 82px;
 }
 .card {
   color: rgb(15, 15, 15);

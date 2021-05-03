@@ -70,6 +70,20 @@ i :hover {
   margin-left: 40%;
   width: 200px;
 }
+.card {
+  color: rgb(15, 15, 15);
+  display: flex;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  border: 2px transparent;
+  border-radius: 5px;
+  box-shadow: 5px 20px 16px 2px rgb(24, 2, 2, 0.8);
+}
 .footer {
   height: 6%;
   margin-top: 29%;

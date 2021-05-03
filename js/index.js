@@ -43,3 +43,28 @@ html.textContent = "React";
 
 legendFour.append(html);
 legendContainer.append(legendFour);
+
+// // section to show my proyects
+// var proyectSection = document.getElementById("proyects-section");
+// var proyectDiv= document.createElement('div');
+
+// proyectDiv.innerHTML="Indiana"
+
+
+// proyectSection.append(proyectDiv);
+
+
+
+
+
+// const proyectPhotos=[
+//     {tittle:"Jobs",src="./img/bolsa.png"},
+//     {tittle:"AfWorld",src="./img/afWorld.jpeg"},
+//     {tittle:"Itla",src="./img/itla.png"},
+//     {tittle:"Elecciones",src="./img/Votacion.png"},
+//     {tittle:"Pokedex",src="./img/pokedex.png"}
+// ]
+
+
+
+
