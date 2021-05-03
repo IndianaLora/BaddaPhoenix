@@ -1,10 +1,9 @@
 body {
   font-family: Lobster;
-  background-color:rgb(0, 0, 0);
- color: white;
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 .container {
- 
   margin: auto;
   overflow: hidden;
 }
@@ -34,7 +33,6 @@ body {
 }
 .skills {
   margin-top: 35%;
-  
 }
 #skills-text {
   position: absolute;
@@ -71,6 +69,15 @@ body {
   margin-top: 5%;
   width: 800px;
 }
+.p-cards {
+  position: absolute;
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 5px 20px 16px 2px rgb(24, 2, 2, 0.8);
+}
 .card {
   color: rgb(15, 15, 15);
   display: flex;
@@ -94,6 +101,7 @@ body {
   box-sizing: border-box;
   box-shadow: 5px solid rgb(54, 52, 54);
 }
+
 header {
   width: 100%;
   overflow: hidden;
@@ -196,6 +204,5 @@ i :hover {
   width: 100%;
   margin-top: 10%;
   margin-bottom: 0%;
-  background:  rgb(173, 17, 147);
-  
+  background: rgb(173, 17, 147);
 }

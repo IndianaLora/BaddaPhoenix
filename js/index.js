@@ -50,12 +50,7 @@ legendContainer.append(legendFour);
 
 // proyectDiv.innerHTML="Indiana"
 
-
 // proyectSection.append(proyectDiv);
-
-
-
-
 
 // const proyectPhotos=[
 //     {tittle:"Jobs",src="./img/bolsa.png"},
@@ -64,7 +59,3 @@ legendContainer.append(legendFour);
 //     {tittle:"Elecciones",src="./img/Votacion.png"},
 //     {tittle:"Pokedex",src="./img/pokedex.png"}
 // ]
-
-
-
-
