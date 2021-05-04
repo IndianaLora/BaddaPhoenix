@@ -1,10 +1,15 @@
-const proyectSection = document.getElementById("proyects-section");
+// const proyectSection = document.getElementById("proyect-bolsa");
+// const proyectSection = document.getElementById("proyects-section");
+// const proyectSection = document.getElementById("proyects-section");
+// const proyectSection = document.getElementById("proyects-section");
+
 
 var img = document.createElement("img");
 img.src = "./img/bolsa.png";
 img.className = "img-proyects";
 
 proyectSection.append(img);
+
 
 var img1 = document.createElement("img");
 img1.src = "./img/afWolrd.jpeg";
@@ -28,38 +33,6 @@ var img4 = document.createElement("img");
 img4.src = "./img/pokedex.png";
 img4.className = "img-proyects";
 
+proyectSection.append(img4);
 
 
-
-// //Map through it 
-// const cardContent = [{
-//     tittleName: "Emphaty",
-//     message: "Empathy is about finding echoes of another person in yourself.",
-//     src = "./img/bolsa.png",
-//     classNamee = "img-proyects"
-//   },
-//   {
-//     tittleName: "Resilence",
-//     message: "“The oak fought the wind and was broken, the willow bent when it must and survived.”",
-//     src = "./img/afWolrd.jpeg",
-//     classNamee = "img-proyects"
-//   },
-//   {
-//     tittleName: "Mindfulness",
-//     message: "You cannot control the results, only your actions.",
-//     src = "./img/itla.png",
-//     classNamee = "img-proyects"
-//   },
-//   {
-//     tittleName: "Honesty",
-//     message: "Integrity is telling myself the truth. And honesty is telling the truth to other people.",
-//     src = "./img/Votacion.png",
-//     classNamee = "img-proyects"
-//   },
-//   {
-//     tittleName: "Faith",
-//     message: "Faith is to believe what you do not see; the reward of this faith is to see what you believe.",
-//     src = "./img/pokedex.png",
-//     classNamee = "img-proyects"
-//   },
-// ];
