@@ -1,3 +1,4 @@
+
 // Create bounderies page with the javascript DOM
 const body = document.body;
 
@@ -15,7 +16,7 @@ h2.id = "emp";
 body.append(h2);
 
 const divVContainer = document.createElement("div");
-divVContainer.className = "vers-container";
+divVContainer.classList = "vers-container";
 
 body.append(divVContainer);
 
@@ -54,3 +55,4 @@ bounderies.map((boundery) => {
   divCardText.innerHTML = boundery.message;
   return (h5.innerHTML = boundery.tittleName);
 });
+
