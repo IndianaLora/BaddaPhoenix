@@ -52,6 +52,20 @@ html.classList = "reverse";
 legendFour.append(html);
 legendContainer.append(legendFour);
 
+//Created gsql legend
+var legend = document.createElement("div");
+legend.style.backgroundColor = "#033f3c";
+legend.id = "green";
+legend.classList = "legend-style";
+
+var git = document.createElement("h5");
+git.textContent = "Sql";
+git.classList = "reverse";
+
+legend.append(git);
+legendContainer.append(legend);
+
+
 //Created git legend
 var legend = document.createElement("div");
 legend.style.backgroundColor = "#e0111c";

@@ -123,7 +123,7 @@ header nav a:hover {
 }
 .legend-style {
   width: 82px;
-  background-color: #e0111c;
+  background-color: #033f3c;
 }
 #purple {
   height: 250px;
@@ -136,10 +136,14 @@ header nav a:hover {
   height: 150px;
 }
 #blue {
-  height: 100px;
+  height: 120px;
+}
+#green{
+  height:80px;
 }
 #red {
   height: 50px;
+ 
 }
 
 #proyects-section {
