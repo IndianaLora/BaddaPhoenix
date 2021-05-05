@@ -1,15 +1,13 @@
 // Create bounderies page with the javascript DOM
 const body = document.body;
 
-
 const aboutMe = document.createElement("div");
-aboutMe.className="about-me";
-const img = document.createElement("img");
-img.src="./img/software17.gif"
-img.alt="sdsd"
-img.className="about-img"
-body.append(aboutMe)
-aboutMe.append(img)
+const h6 = document.createElement("h6");
+h6.innerHTML =
+  'Heres a bit more about me im a 22 years old,"Software development student. I study at Itla(La americas institute of technology) and even i consider myself being phenomally skill and definetly phenomally will" ';
+aboutMe.className = "about-me";
+body.append(aboutMe);
+aboutMe.append(h6)
 
 const h2 = document.createElement("h2");
 h2.textContent = "Here i leave you my daily reminders";
@@ -32,10 +30,7 @@ const bounderies = [
     message:
       "“The oak fought the wind and was broken, the willow bent when it must and survived.”",
   },
-  {
-    tittleName: "Mindfulness",
-    message: "You cannot control the results, only your actions.",
-  },
+
   {
     tittleName: "Honesty",
     message:

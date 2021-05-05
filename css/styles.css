@@ -9,12 +9,12 @@ header {
   background: #158aad;
   margin-bottom: 30px;
   position: relative;
- 
+
   box-shadow: 5px 2px 6px 2px rgba(14, 13, 13, 0.8);
 }
 @media only screen and (max-width: 600px) {
   div.header {
-   min-width: 1000px;
+    min-width: 1000px;
   }
 }
 .wrapper {
@@ -60,116 +60,59 @@ header nav a:hover {
   line-height: 100px;
 }
 
-
-.container {
-  margin: auto;
-  overflow: hidden;
+/* 
+  Bounderies sections */
+.about-me {
+  height: 300px;
+  width: 700px;
+  color: white;
 }
-#w-hand {
-  width: 40px;
-}
-#indiana {
-  width: 200px;
-  margin-top: 5%;
-  border-radius: 10%;
-  box-shadow: 5px 5px 6px 10px rgba(138, 130, 130, 0.8);
+.about-img {
+  height: 600px;
+  width: 1000px;
+  margin-left: 15%;
 }
 @media only screen and (max-width: 600px) {
-  div.presentation img {
+  div.about-me img {
+    height: 100px;
     width: 50px;
   }
 }
-
-.presentation {
-  margin-left: 2%;
-  margin-top: 2%;
+h6 {
+  width: 300px;
 }
 
-.paragraph {
-  float: left;
-}
-.skills {
-  margin-top: 10%;
-  height: 250px;
-  margin-bottom: 15%;
-}
-@media only screen and (max-width: 600px) {
-  div.skills {
-    margin-top: 50%;
-    margin-bottom: 50%;
-  }
-}
-#skills-text {
-  margin-top: 1%;
-  margin-left: 25%;
-}
-@media only screen and (max-width: 600px) {
-  div.skills h2 {
-    margin-left: 10%;
-  }
-}
-.reverse {
-  margin-left: 1%;
-  transform: scaleY(-1);
-}
-#skills-legend {
-  display: flex;
-  flex-wrap: nowrap;
-  transform: scaleY(-1);
-  margin-left: 10%;
-  color: white;
-  min-width: 90px;
-  padding: 1%;
-}
-.legend-style {
-  width: 82px;
-  background-color: #033f3c;
-}
-#purple {
-  height: 250px;
-}
-#yellow {
-  height: 200px;
-}
-#pink {
-  width: 90px;
-  height: 150px;
-}
-#blue {
-  height: 120px;
-}
-#green {
-  height: 80px;
-}
-#red {
-  height: 50px;
-}
-
-#proyects-section {
+.vers-container {
   display: flex;
   flex-wrap: wrap;
-}
-.proyect-header {
-  margin-left: 10%;
+  margin-top: 2%;
   margin-bottom: 5%;
-  text-align: center;
-}
-.img-proyects {
-  width: 800px;
-  margin-top: 5%;
-  margin-left: 20%;
+  background-image: linear-gradient(
+    to right top,
+    #0d4b26,
+    #79e290,
+    #7ca594,
+    #71bcee,
+    #0496c2
+  );
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  font-family: roboto;
+  border-top: 5px 20px 16px 2px rgba(173, 27, 27, 0.8);
+  box-shadow: 5px 20px 16px 2px rgb(24, 2, 2, 0.8);
 }
 @media only screen and (max-width: 600px) {
-  div.photo-proyects img {
-    width: 240px;
+  div.vers-container {
+    display: inline-block;
+    flex-direction: column-reverse;
+    width: 400px;
   }
 }
-
-
-.card-index {
+.card {
   color: rgb(15, 15, 15);
-  background-color: white;
-  display: flex;
+  display: inline-block;
+  flex-direction: column-reverse;
   margin-top: 2%;
   margin-left: 3%;
   margin-right: 5%;
@@ -179,17 +122,13 @@ header nav a:hover {
   padding: 20px;
   border: 2px transparent;
   border-radius: 5px;
-  box-shadow: 5px 20px 16px 2px rgba(71, 67, 67, 0.8);
+  box-shadow: 5px 20px 16px 2px rgb(24, 2, 2, 0.8);
 }
-
-#skills {
-  display: flex;
-  margin-left: 35%;
-  border-radius: 5%;
-  margin-top: 10%;
-  height: 500px;
-  box-sizing: border-box;
-  box-shadow: 5px solid rgb(54, 52, 54);
+@media only screen and (max-width: 600px) {
+  div.card {
+    justify-content: center;
+    width: 200px;
+  }
 }
 .git {
   font-size: 48px;
@@ -205,6 +144,9 @@ i :hover {
   margin-top: 10%;
   margin-bottom: 0%;
   background: #158aad;
+  -webkit-transition: all 500ms ease;
+  -o-transition: 500ms ease;
+  transition: all 500ms ease;
 }
 @media only screen and (max-width: 600px) {
   div.footer {
