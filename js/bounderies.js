@@ -1,5 +1,16 @@
 // Create bounderies page with the javascript DOM
 const body = document.body;
+
+
+const aboutMe = document.createElement("div");
+aboutMe.className="about-me";
+const img = document.createElement("img");
+img.src="./img/software17.gif"
+img.alt="sdsd"
+img.className="about-img"
+body.append(aboutMe)
+aboutMe.append(img)
+
 const h2 = document.createElement("h2");
 h2.textContent = "Here i leave you my daily reminders";
 h2.id = "emp";

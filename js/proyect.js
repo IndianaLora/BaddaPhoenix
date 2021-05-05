@@ -5,7 +5,7 @@ const proyectElecciones = document.getElementById("proyect-Elecciones");
 const proyectPokedex = document.getElementById("proyect-Pokedex");
 
 var img = document.createElement("img");
-img.src = "./img/bolsa.png";
+img.src = "./img/Bolsa.png";
 img.className = "img-proyects";
 
 proyectBolsa.append(img);
@@ -23,7 +23,7 @@ img2.className = "img-proyects";
 proyectItla.append(img2);
 
 var img3 = document.createElement("img");
-img3.src = "./img/Votacion.png";
+img3.src = "./img/votacion.png";
 img3.className = "img-proyects";
 
 proyectElecciones.append(img3);

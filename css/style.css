@@ -88,7 +88,7 @@ header nav a:hover {
   float: left;
 }
 .skills {
-  margin-top:10%;
+  margin-top: 10%;
   height: 250px;
   margin-bottom: 15%;
 }
@@ -101,7 +101,6 @@ header nav a:hover {
 #skills-text {
   margin-top: 1%;
   margin-left: 25%;
-  
 }
 @media only screen and (max-width: 600px) {
   div.skills h2 {
@@ -138,25 +137,23 @@ header nav a:hover {
 #blue {
   height: 120px;
 }
-#green{
-  height:80px;
+#green {
+  height: 80px;
 }
 #red {
   height: 50px;
- 
 }
 
 #proyects-section {
   display: flex;
   flex-wrap: wrap;
 }
-.proyect-header{
+.proyect-header {
   margin-left: 10%;
   margin-bottom: 5%;
   text-align: center;
 }
 .img-proyects {
-
   width: 800px;
   margin-top: 5%;
   margin-left: 20%;
@@ -164,7 +161,6 @@ header nav a:hover {
 @media only screen and (max-width: 600px) {
   div.photo-proyects img {
     width: 240px;
-    
   }
 }
 .overlay {
@@ -176,8 +172,8 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+  transition: 0.5s ease;
+  background-color: #008cba;
 }
 
 .img-proyects:hover .overlay {
@@ -224,6 +220,17 @@ header nav a:hover {
 
 /* 
 Bounderies sections */
+.about-me {
+  height: 300px;
+  width: 700px;
+
+  color: white;
+ 
+}
+.about-img{
+  height: 300px;
+  width: 100%;
+}
 
 #f {
   margin-left: 2%;
