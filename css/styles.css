@@ -66,21 +66,38 @@ header nav a:hover {
   height: 300px;
   width: 700px;
   color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  background-size: cover;
+  background-position: center;
 }
 .about-img {
   height: 600px;
   width: 1000px;
   margin-left: 15%;
+  
 }
 @media only screen and (max-width: 600px) {
-  div.about-me img {
-    height: 100px;
-    width: 50px;
+  div.about-presentation img {
+    height: 300px;
+    width: 300px;
   }
 }
 h6 {
-  width: 300px;
+  width: 600px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(226, 228, 229);
+  background-image: linear-gradient(rgba(8, 0, 0, 0.9), rgba(55, 98, 241, 0.9));
+
 }
+@media only screen and (max-width: 600px) {
+    div.about-me h6 {
+        top: 50%;
+      width: 300px;
+    }
+  }
 
 .vers-container {
   display: flex;
@@ -89,7 +106,7 @@ h6 {
   margin-bottom: 5%;
   background-image: linear-gradient(
     to right top,
-    #0d4b26,
+    #f10ae5,
     #79e290,
     #7ca594,
     #71bcee,

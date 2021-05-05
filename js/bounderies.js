@@ -4,10 +4,10 @@ const body = document.body;
 const aboutMe = document.createElement("div");
 const h6 = document.createElement("h6");
 h6.innerHTML =
-  'Heres a bit more about me im a 22 years old,"Software development student. I study at Itla(La americas institute of technology) and even i consider myself being phenomally skill and definetly phenomally will" ';
+  'Heres a bit more about me im a 22 years old,"Software development" student. I study at Itla(La americas institute of technology) and even though i dont consider myself being phenomally skill but definetly phenomally will" ';
 aboutMe.className = "about-me";
 body.append(aboutMe);
-aboutMe.append(h6)
+aboutMe.append(h6);
 
 const h2 = document.createElement("h2");
 h2.textContent = "Here i leave you my daily reminders";
