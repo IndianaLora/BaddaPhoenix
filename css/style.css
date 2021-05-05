@@ -67,45 +67,51 @@ body {
 }
 .skills {
   margin-top: 35%;
-  margin-bottom: 15%;
-  height: 200px;
+  margin-bottom: 90%;
+  height: 250px;
 }
 #skills-text {
-  position: absolute;
+  
   margin-top: 1%;
   margin-left: 25%;
   margin-bottom: 15%;
+  
 }
-
+.reverse{
+  transform: scaleY(-1);
+}
 #skills-legend {
   display: flex;
-  flex-wrap:  inherit;
-  margin-top: 25%;
-  margin-left: 30%;
+  flex-wrap: nowrap;
+  transform: scaleY(-1);
+  margin-left: 10%;
   color: white;
-  min-width:1px;
+  min-width:20px;
   padding: 1%;
 }
 .legend-style {
  
   width: 82px;
-  background-color: #d019d6;
+  background-color: #e0111c;
 }
 #purple{
   height: 250px;
-  margin-top:10%;
+  
 }
 #yellow{
   height: 200px;
-  margin-top:16.5%;
+ 
 }
 #pink{
   height: 150px;
-  margin-top: 23.3%;
+ 
 }
 #blue{
   height: 100px;
-  margin-top: 30%;
+ 
+}
+#red{
+  height: 50px;
 }
 
 #proyects-section {
@@ -154,7 +160,7 @@ body {
 header {
   width: 100%;
   overflow: hidden;
-  background: rgb(173, 17, 147);
+  background: #0496c2;
   margin-bottom: 30px;
   position: relative;
   width: 100%;
@@ -221,11 +227,11 @@ header nav a:hover {
   margin-bottom: 5%;
   background-image: linear-gradient(
     to right top,
-    #410b0b,
-    #e4c68f,
-    #ad9a9a,
-    #df71ee,
-    #4d0357
+    #0d4b26,
+    #79e290,
+    #7ca594,
+    #71bcee,
+    #0496c2
   );
   background-position: center;
   background-size: contain;
@@ -253,5 +259,5 @@ i :hover {
   width: 100%;
   margin-top: 10%;
   margin-bottom: 0%;
-  background: rgb(173, 17, 147);
+  background: #0496c2;
 }

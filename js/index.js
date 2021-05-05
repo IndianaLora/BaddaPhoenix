@@ -1,5 +1,7 @@
 const legendContainer = document.getElementById("skills-legend");
 
+
+
 //Created React legend
 var legendOne = document.createElement("div");
 legendOne.style.backgroundColor = "#4d0066";
@@ -8,6 +10,7 @@ legendOne.className = "legend-style";
 
 var react = document.createElement("h5");
 react.textContent = "Html";
+react.className="reverse"
 
 legendOne.append(react);
 legendContainer.append(legendOne);
@@ -20,6 +23,7 @@ legendTwo.className = "legend-style";
 
 var js = document.createElement("h5");
 js.textContent = "Css";
+js.className="reverse"
 
 legendTwo.append(js);
 legendContainer.append(legendTwo);
@@ -32,6 +36,7 @@ legendThree.className = "legend-style";
 
 var css = document.createElement("h5");
 css.textContent = "Javascript";
+css.className="reverse"
 
 legendThree.append(css);
 legendContainer.append(legendThree);
@@ -44,22 +49,20 @@ legendFour.className = "legend-style";
 
 var html = document.createElement("h5");
 html.textContent = "React";
+html.className="reverse"
 
 legendFour.append(html);
 legendContainer.append(legendFour);
 
-// // section to show my proyects
-// var proyectSection = document.getElementById("proyects-section");
-// var proyectDiv= document.createElement('div');
+//Created git legend
+var legend= document.createElement("div");
+legend.style.backgroundColor = "#e0111c";
+legend.id = "red";
+legend.className = "legend-style";
 
-// proyectDiv.innerHTML="Indiana"
+var git = document.createElement("h5");
+git.textContent = "Git";
+git.className="reverse"
 
-// proyectSection.append(proyectDiv);
-
-// const proyectPhotos=[
-//     {tittle:"Jobs",src="./img/bolsa.png"},
-//     {tittle:"AfWorld",src="./img/afWorld.jpeg"},
-//     {tittle:"Itla",src="./img/itla.png"},
-//     {tittle:"Elecciones",src="./img/Votacion.png"},
-//     {tittle:"Pokedex",src="./img/pokedex.png"}
-// ]
+legend.append(git);
+legendContainer.append(legend);
