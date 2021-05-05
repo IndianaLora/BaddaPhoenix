@@ -2,6 +2,7 @@ body {
   font-family: Lobster;
   background-color: rgb(0, 0, 0);
   color: white;
+  
 }
 header {
   width: 100%;
@@ -75,39 +76,60 @@ header nav a:hover {
   width: 1000px;
   margin-left: 15%;
   
+  
+}
+.about-presentation{
+    background-image: url("../img/software.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(42, 59, 59);
+    height: 500px;
 }
 @media only screen and (max-width: 600px) {
-  div.about-presentation img {
+  div.about-presentation  {
     height: 300px;
-    width: 300px;
+    width: 500px;
   }
 }
 h6 {
+    
   width: 600px;
   position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 90%;
+  left: 30%;
+  vertical-align: middle;
+  text-align: center;
+  text-shadow: 2px 2px 5px grey;
+  border-radius: 8px;
   color: rgb(226, 228, 229);
-  background-image: linear-gradient(rgba(8, 0, 0, 0.9), rgba(55, 98, 241, 0.9));
+  background-image: linear-gradient(rgba(8, 0, 0, 0.3), rgba(21, 21, 24, 0.1));
 
 }
 @media only screen and (max-width: 600px) {
     div.about-me h6 {
         top: 50%;
+        left: 10%;
       width: 300px;
     }
   }
-
+  #eyes{
+    margin-left: 80%;
+    width: 200px;
+    
+  }
+#emp{
+    text-shadow: 2px 2px 5px grey;
+    text-align: center;
+}
 .vers-container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2%;
   margin-bottom: 5%;
   background-image: linear-gradient(
     to right top,
-    #f10ae5,
-    #79e290,
+    #0f0f0f,
+    #3037b6,
     #7ca594,
     #71bcee,
     #0496c2
@@ -126,12 +148,16 @@ h6 {
     width: 400px;
   }
 }
+#emp{
+    margin-top: 0%;
+}
+hr{background-color:#0496c2}
 .card {
   color: rgb(15, 15, 15);
   display: inline-block;
   flex-direction: column-reverse;
   margin-top: 2%;
-  margin-left: 3%;
+  margin-left: 6%;
   margin-right: 5%;
   margin-bottom: 3%;
   width: 200px;

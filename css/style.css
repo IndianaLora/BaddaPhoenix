@@ -73,6 +73,7 @@ header nav a:hover {
   margin-top: 5%;
   border-radius: 10%;
   box-shadow: 5px 5px 6px 10px rgba(138, 130, 130, 0.8);
+
 }
 @media only screen and (max-width: 600px) {
   div.presentation img {
@@ -158,6 +159,7 @@ header nav a:hover {
   width: 800px;
   margin-top: 5%;
   margin-left: 20%;
+  
 }
 @media only screen and (max-width: 600px) {
   div.photo-proyects img {
