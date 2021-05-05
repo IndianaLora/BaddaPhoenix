@@ -3,6 +3,7 @@ const legendContainer = document.getElementById("skills-legend");
 //Created React legend
 var legendOne = document.createElement("div");
 legendOne.style.backgroundColor = "#4d0066";
+legendOne.id = "purple";
 legendOne.className = "legend-style";
 
 var react = document.createElement("h5");
@@ -14,6 +15,7 @@ legendContainer.append(legendOne);
 //Created js legend
 var legendTwo = document.createElement("div");
 legendTwo.style.backgroundColor = "#ff9900";
+legendTwo.id = "yellow";
 legendTwo.className = "legend-style";
 
 var js = document.createElement("h5");
@@ -25,6 +27,7 @@ legendContainer.append(legendTwo);
 //Created Css legend
 var legendThree = document.createElement("div");
 legendThree.style.backgroundColor = "#f56b6b";
+legendThree.id = "pink";
 legendThree.className = "legend-style";
 
 var css = document.createElement("h5");
@@ -36,6 +39,7 @@ legendContainer.append(legendThree);
 //Created Html legend
 var legendFour = document.createElement("div");
 legendFour.style.backgroundColor = "#00ccff";
+legendFour.id = "blue";
 legendFour.className = "legend-style";
 
 var html = document.createElement("h5");

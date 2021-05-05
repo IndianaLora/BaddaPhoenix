@@ -3,12 +3,7 @@ body {
   background-color: rgb(0, 0, 0);
   color: white;
 }
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
+
 @media only screen and (max-width: 600px) {
   div.presentation img {
     display: none;
@@ -16,10 +11,31 @@ body {
 }
 @media only screen and (max-width: 600px) {
   div.skills {
-    margin-top: 200%;
+    margin-top: 150%;
   }
 }
-
+@media only screen and (max-width: 600px) {
+  div.skills h2 {
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #img-skills {
+    display: flex;
+    width: 1000px;
+    margin-left: 2%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  div.photo-proyects img {
+    width: 240px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  a.sc-menu {
+    display: none;
+  }
+}
 
 .container {
   margin: auto;
@@ -31,8 +47,8 @@ body {
 #indiana {
   position: absolute;
   width: 200px;
-  margin-top: 6%;
-  margin-left: 15%;
+  margin-top: 30%;
+  margin-left: 90%;
   border-radius: 10%;
   box-shadow: 5px 5px 6px 10px rgba(138, 130, 130, 0.8);
 }
@@ -51,34 +67,47 @@ body {
 }
 .skills {
   margin-top: 35%;
+  margin-bottom: 15%;
+  height: 200px;
 }
 #skills-text {
   position: absolute;
   margin-top: 1%;
   margin-left: 25%;
-}
-#img-skills {
-  width: 430px;
-  margin-top: 5%;
-  margin-left: 40%;
-  display: flex;
-  flex-wrap: wrap;
+  margin-bottom: 15%;
 }
 
 #skills-legend {
   display: flex;
-  margin-left: 43%;
+  flex-wrap:  inherit;
+  margin-top: 25%;
+  margin-left: 30%;
   color: white;
-  min-width: 10px;
+  min-width:1px;
   padding: 1%;
 }
 .legend-style {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+ 
   width: 82px;
   background-color: #d019d6;
 }
+#purple{
+  height: 250px;
+  margin-top:10%;
+}
+#yellow{
+  height: 200px;
+  margin-top:16.5%;
+}
+#pink{
+  height: 150px;
+  margin-top: 23.3%;
+}
+#blue{
+  height: 100px;
+  margin-top: 30%;
+}
+
 #proyects-section {
   display: flex;
   flex-wrap: wrap;

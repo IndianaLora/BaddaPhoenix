@@ -1,5 +1,5 @@
 const proyectBolsa = document.getElementById("proyect-bolsa");
-const proyectAf= document.getElementById("proyect-Af");
+const proyectAf = document.getElementById("proyect-Af");
 const proyectItla = document.getElementById("proyect-Itla");
 const proyectElecciones = document.getElementById("proyect-Elecciones");
 const proyectPokedex = document.getElementById("proyect-Pokedex");
@@ -9,7 +9,6 @@ img.src = "./img/bolsa.png";
 img.className = "img-proyects";
 
 proyectBolsa.append(img);
-
 
 var img1 = document.createElement("img");
 img1.src = "./img/afWolrd.jpeg";
@@ -34,5 +33,3 @@ img4.src = "./img/pokedex.png";
 img4.className = "img-proyects";
 
 proyectPokedex.append(img4);
-
-
