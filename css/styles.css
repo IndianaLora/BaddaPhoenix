@@ -90,7 +90,7 @@ header nav a:hover {
 @media only screen and (max-width: 600px) {
   div.about-presentation  {
     height: 300px;
-    width: 500px;
+    min-width: 300px;
   }
 }
 h6 {
@@ -147,6 +147,7 @@ h6 {
     display: inline-block;
     flex-direction: column-reverse;
     width: 400px;
+    
   }
 }
 #emp{
@@ -172,6 +173,7 @@ hr{background-color:#0496c2}
   div.card {
     justify-content: center;
     width: 200px;
+    margin-left: 20%;
   }
 }
 .git {
