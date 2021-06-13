@@ -5,13 +5,13 @@ const proyectElecciones = document.getElementById("proyect-Elecciones");
 const proyectPokedex = document.getElementById("proyect-Pokedex");
 
 var img = document.createElement("img");
+
 img.src = "./img/Bolsa.png";
 img.className = "img-proyects";
-
 proyectBolsa.append(img);
 
 var img1 = document.createElement("img");
-img1.src = "./img/afWolrd.jpeg";
+img1.src = "./img/resin.png";
 img1.className = "img-proyects";
 
 proyectAf.append(img1);

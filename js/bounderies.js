@@ -1,4 +1,3 @@
-
 // Create bounderies page with the javascript DOM
 const body = document.body;
 
@@ -56,3 +55,8 @@ bounderies.map((boundery) => {
   return (h5.innerHTML = boundery.tittleName);
 });
 
+number = 10;
+for (i = 0; i < number.lenght; i++) {
+  let a = number[i];
+  console.log(a);
+}
