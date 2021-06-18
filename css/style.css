@@ -9,12 +9,12 @@ header {
   background: #158aad;
   margin-bottom: 30px;
   position: relative;
- 
+
   box-shadow: 5px 2px 6px 2px rgba(14, 13, 13, 0.8);
 }
 @media only screen and (max-width: 600px) {
   div.header {
-   min-width: 1000px;
+    min-width: 1000px;
   }
 }
 .wrapper {
@@ -60,7 +60,6 @@ header nav a:hover {
   line-height: 100px;
 }
 
-
 .container {
   margin: auto;
   overflow: hidden;
@@ -73,7 +72,6 @@ header nav a:hover {
   margin-top: 5%;
   border-radius: 10%;
   box-shadow: 5px 5px 6px 10px rgba(138, 130, 130, 0.8);
-
 }
 @media only screen and (max-width: 600px) {
   div.presentation img {
@@ -159,20 +157,21 @@ header nav a:hover {
   width: 800px;
   margin-top: 5%;
   margin-left: 20%;
-  
 }
 @media only screen and (max-width: 600px) {
   div.photo-proyects img {
     width: 240px;
   }
 }
-
-
+.contact-section{
+  background-color: rgb(139, 47, 112);
+}
 .card-index {
+  position: absolute;
   color: rgb(15, 15, 15);
   background-color: white;
   display: flex;
-  margin-top: 2%;
+  margin-top: 10%;
   margin-left: 3%;
   margin-right: 5%;
   margin-bottom: 3%;

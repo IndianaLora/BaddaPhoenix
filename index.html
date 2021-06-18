@@ -4,28 +4,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pagina web personal ☻</title>
+  <link
+    rel="icon"
+    href="https://uxwing.com/wp-content/themes/uxwing/download/07-design-and-development/software-development.png"
+  />
+  <title> Indiana's Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <link rel="stylesheet" href="css/style.css" />
-  <script src="js/script.js"></script>
 </head>
 <header class="logo">
   <div class="wrapper">
     <div class="logobox">
-      <h1>Welcome to my portfolio!</h1>
+      <h1>Welcome!</h1>
+      <nav>
+        <a id='home-a' onclick="scrollMenu()"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+        <a id='skills-a' onclick="scrollMenu()"><i class="fa fa-briefcase" aria-hidden="true"></i>Work Skills</a>
+        <a id='projects-a' onclick="scrollMenu()"><i class="fa fa-code" aria-hidden="true"></i>Projects</a>
+        <a id='contact-a' onclick="scrollMenu()"><i class="fa fa-inbox" aria-hidden="true"></i>Contact</a>
+      </nav>
     </div>
-    <a href="https://github.com/IndianaLora"><i class="btn fa fa-github git"></i></i></a>
+    <a href="https://github.com/IndianaLora"><i class="btn fa fa-github git"></i></a>
+    <a><i class="btn fa fa-linkedin fa-link"></i></a>
   </div>
 </header>
+
 <body>
- 
   <br />
   <div class="container">
-    <div class="presentation">
-      <h1>Hi there !! <img src="./img/wh.gif" id="w-hand" /> im Indiana Lora</h1>
+    <div class="presentation" id='homeSection'>
+      <h1>
+        Hi there !! <img src="./img/wh.gif" id="w-hand" /> im Indiana Lora
+      </h1>
       <div class="paragraph">
         <p>
           I'm a web developer from Dominican Republic
@@ -34,59 +46,96 @@
         <p>Css obsessed ,html fan and React JS lover ♥</p>
         <p>Here i leave you some of my work...</p>
       </div>
-     
+
       <img src="./img/babyMe.png" id="indiana" />
     </div>
-  
 
-    <div class="skills">
+    <div class="skills" id='workSkills'>
       <h2 id="skills-text">Work skills</h2>
-      <div id="skills-legend">
-      </div>
+      <div id="skills-legend"></div>
     </div>
 
-    <h2 id="proyect-header"></h2>
-
-    <div class="photo-proyects">
-    <div id="proyect-bolsa">
-      <a href="https://github.com/IndianaLora/Bolsa-de-empleos#readme">
-      <div class="card-index">
-        React proyect (Source code only)
-      </div>
-      </a>
-    </div>
-    <div id="proyect-Af">
-      <a href="https://resin-webpage.herokuapp.com/">
-        <div class="card-index">
-          React proyect (Page available)
-        </div>
-      </a>
-    </div>
-    <div id="proyect-Itla">
-      <div class="card-index">
-        C# proyect
-      </div>
-    </div>
-    <div id="proyect-Elecciones">
-      <div class="card-index">
-        Php proyect
-      </div>
-    </div>
-    <div id="proyect-Pokedex">
-      <div class="card-index">
-        Php proyect
-      </div>
     
+    <div class="photo-proyects" id='projectSection'>
+      <h2 id="proyect-header"></h2>
+
+      <div id="proyect-bolsa">
+        <a href="https://github.com/IndianaLora/Bolsa-de-empleos#readme">
+          <div class="card-index">
+            A project made with: React (Source code only)
+          </div>
+        </a>
+      </div>
+      <div id="proyect-Af">
+        <a href="https://resin-webpage.herokuapp.com/">
+          <div class="card-index">
+            A project made with: React (Page available)
+          </div>
+        </a>
+      </div>
+      <div id="proyect-Itla">
+        <div class="card-index">A project made with: C# proyect</div>
+      </div>
+      <div id="proyect-Elecciones">
+        <div class="card-index">A project made with: Php proyect</div>
+      </div>
+      <div id="proyect-Pokedex">
+        <div class="card-index">A project made with: Php proyect</div>
+      </div>
+    </div>
+    <div class="section animated-row" data-section="slide07">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="contact-section" id='contactSection'>
+        <span>Contact</span>
+        <h2>Get In Touch!</h2>
+        <div class="row">
+          <div class="col-md-6 animate" data-animate="fadeInUp">
+            <div class="contact-box">
+              <div class="contact-row">
+                <i class="fa fa-map-marker"></i>Remote
+              </div>
+              <div class="contact-row">
+                <i class="fa fa-phone"></i> 090 080 0210
+              </div>
+              <div class="contact-row">
+                <i class="fa fa-envelope"></i> lorasharim@gmail.com
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 animate" data-animate="fadeInUp">
+            <form id="ajax-contact" method="post" action="#">
+              <div class="input-field">
+                <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
+              </div>
+              <div class="input-field">
+                <input type="email" class="form-control" name="email" id="email" required placeholder="Email">
+              </div>
+              <div class="input-field">
+                <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
+              </div>
+              <button class="btn btn-danger" type="submit">Submit</button>
+            </form>
+            <div id="form-messages" class="mt-3"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   </div>
   <script src="js/index.js"></script>
   <script src="js/proyect.js"></script>
-
+  <script src="js/menu.js"></script>
 </body>
-
 
 <h2 style="color: #f3d9de" class="footer">
   &copy;Indiana lora ~~ All rights reserved.
 </h2>
+
 </html>
