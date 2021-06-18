@@ -65,7 +65,6 @@ git.classList = "reverse";
 legend.append(git);
 legendContainer.append(legend);
 
-
 //Created git legend
 var legend = document.createElement("div");
 legend.style.backgroundColor = "#e0111c";
@@ -80,5 +79,9 @@ legend.append(git);
 legendContainer.append(legend);
 
 const proyectHeader = document.getElementById("proyect-header");
-proyectHeader.innerHTML="Proyect I haved worked on..."
-proyectHeader.classList="proyect-header"
+proyectHeader.innerHTML = "Proyect I haved worked on...";
+proyectHeader.classList = "proyect-header";
+
+function emailConfirmation() {
+  alert("Email sended will replay soon");
+}
