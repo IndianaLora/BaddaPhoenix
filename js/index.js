@@ -80,5 +80,5 @@ legend.append(git);
 legendContainer.append(legend);
 
 const proyectHeader = document.getElementById("proyect-header");
-proyectHeader.innerHTML="Proyect i haved worked on..."
+proyectHeader.innerHTML="Proyect I haved worked on..."
 proyectHeader.classList="proyect-header"
