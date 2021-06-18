@@ -29,13 +29,14 @@ header.logo {
   color: white;
   font-size: 20px;
   line-height: 30px;
-  float: left;
+
 }
 header nav {
   line-height: 30px;
 }
 header nav a {
-  display: inline-block;
+  display: flex;
+  float: left;
   color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 10px 20px;

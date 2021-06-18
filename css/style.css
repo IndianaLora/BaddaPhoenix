@@ -1,3 +1,10 @@
+* {
+  font-family: "Bree Serif", serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  outline: none;
+}
 body {
   font-family: Lobster;
   background-color: rgb(0, 0, 0);
@@ -17,12 +24,6 @@ header {
     min-width: 1000px;
   }
 }
-.wrapper {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  overflow: hidden;
-}
 header.logo {
   color: white;
   font-size: 20px;
@@ -31,12 +32,15 @@ header.logo {
 }
 header nav {
   line-height: 30px;
+  display: flex;
+  float: right;
+  padding: 16px 16px;
 }
 header nav a {
-  display: inline-block;
+  padding: 16px 16px;
+  cursor: pointer;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  padding: 10px 20px;
   line-height: normal;
   font-size: 20px;
   font-weight: bold;
@@ -48,22 +52,13 @@ header nav a:hover {
   background: rgb(182, 178, 202);
   border-radius: 50px;
 }
-.header2 {
-  position: fixed;
-  height: 100px;
-}
-.header2.logo {
-  line-height: 100px;
-  font-size: 25px;
-}
-.header2 nav {
-  line-height: 100px;
+#welcome{
+ font-family: 'Times New Roman', Times, serif;
+ margin: auto;
+ text-align: center;
 }
 
-.container {
-  margin: auto;
-  overflow: hidden;
-}
+
 #w-hand {
   width: 40px;
 }
@@ -80,17 +75,18 @@ header nav a:hover {
 }
 
 .presentation {
-  margin-left: 2%;
-  margin-top: 2%;
+  padding: 12px 16px;
+ margin-bottom: 30%;
 }
 
 .paragraph {
   float: left;
+  padding: 12px 16px;
 }
 .skills {
   margin-top: 10%;
   height: 250px;
-  margin-bottom: 15%;
+  margin-bottom: 50%;
 }
 @media only screen and (max-width: 600px) {
   div.skills {
@@ -163,7 +159,8 @@ header nav a:hover {
     width: 240px;
   }
 }
-.contact-section{
+.contact-section {
+  margin-top: 30%;
   background-color: rgb(139, 47, 112);
 }
 .card-index {
