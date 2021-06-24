@@ -10,11 +10,11 @@
 header {
   width: 100%;
   overflow: hidden;
-  background: #24244b;
+  background: #05696d;
   margin-bottom: 30px;
   position: relative;
 
-  box-shadow: 5px 2px 6px 2px rgba(14, 13, 13, 0.8);
+  /* box-shadow: 5px 2px 6px 2px rgba(14, 13, 13, 0.8); */
 }
 @media only screen and (max-width: 600px) {
   div.header {
@@ -54,7 +54,7 @@ body {
   margin: 0%;
   padding: 0%;
   font-family: Lobster;
-  background-color: #ebe0e0;
+  background-color: #05696d;
   color: white;
 }
 
@@ -83,7 +83,7 @@ body {
   height: 100%;
   padding: 12px 16px;
   margin-bottom: 10%;
-  background-color: #131212;
+  background-color: transparent;
   border-bottom-right-radius: 50%;
 }
 .w3-center {
@@ -96,9 +96,8 @@ body {
 }
 
 .skills {
-  margin-bottom: 40%;
-  background-color: #131212;
-  
+  background-color: #d8c6c6;
+  height: 800px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -153,15 +152,12 @@ body {
   height: 50px;
 }
 
-#proyects-section  {
+#proyects-section {
   display: flexbox;
   flex-wrap: wrap;
- 
-  background-color: #24244b;
 }
 .proyect-header {
   margin-left: 10%;
-  margin-bottom: 5%;
   text-align: center;
 }
 .img-proyects {
@@ -187,7 +183,7 @@ body {
 }
 .contact-section {
   color: black;
-  background-color: rgb(248, 241, 246, 0.8);
+  background-color: rgba(172, 40, 134, 0.8);
   height: 300px;
   width: 600px;
   margin: 5rem auto;
@@ -199,7 +195,7 @@ body {
   background-color: white;
   display: flex;
   margin-top: 10%;
-  margin-left: 3%;
+  margin-left: 15%;
   margin-right: 5%;
   margin-bottom: 3%;
   width: 200px;
@@ -233,29 +229,23 @@ i :hover {
   background: rgb(216, 204, 236);
 }
 
+#contact-section {
+  margin-top: 10%;
+  background-color: #d8c6c6;
+}
 .footer {
   height: 6%;
   width: 100%;
-  margin-top: 10%;
   margin-bottom: 0%;
   display: flexbox;
   flex-wrap: wrap;
-  background: #24244b;
 }
 @media only screen and (max-width: 600px) {
   div.footer {
     min-width: 1000px;
-    
   }
 }
 
-.contact-container {
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
 .text {
   font-weight: 100px;
   font-size: 28px;
@@ -265,6 +255,3 @@ i :hover {
   color: #757575;
 }
 /* contact */
-#contact{
-  margin-top: 20%;
-}
