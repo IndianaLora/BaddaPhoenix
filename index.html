@@ -11,7 +11,12 @@
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="css/style.css" />
+
+ <link rel="stylesheet" href="css/contactEffect.css" />
 </head>
 <header>
   <h1 id='welcome'>Welcome!</h1>
@@ -25,15 +30,18 @@
 <body>
   
     <div class="container">
-      <section class="presentation" id='homeSection'>
+      <section class="presentation  w3-animate-bottom" id='homeSection'>
       <div class="presentation" id='homeSection'>
         <div class="paragraph">
           <h1>
-            Hi there !! <img src="./img/wh.gif" id="w-hand" /> im Indiana Lora
+            Hi there !! I'm Indiana Lora
           </h1>
-          <p>
-            I'm a web developer from Dominican Republic 🌴.
-          </p>
+          <h3>
+            <div class="contact-container">
+              <div class="text"> </div>
+            </div> 
+          </h3>
+         
           <p>HTML fan, CSS obsessed , and React JS lover 💟</p>
           <p>Here I leave you some of my work💼</p>
           <p>I hope you like it...Enjoy!</p>
@@ -41,7 +49,7 @@
         <img src='./img/indiana.jpg' id='indiana'/>
       </div>
   </section>
-
+</div>
 <!-- End of Home section -->
 
   <div class="skills" id='workSkills'>
@@ -50,7 +58,8 @@
   </div>
 <!-- End of Skills section -->
 
-  <div class="photo-proyects" id='projectSection'>
+<section id="skills-section" id="projectSection" >
+  <div class="photo-proyects" id="proyects-section">
     <h2 id="proyect-header"></h2>
     <div id="proyect-bolsa" class="proyects">
         <div class="card-index">
@@ -63,17 +72,32 @@
         </div>
     </div>
   </div>
+</section>
   <!-- End of Skills section -->
- 
+  <section id="contact" id="contactSection">
+    <h4 class="text-dark ">Contact</h4>
+
+<h2>
+  Wanna Work with me?
+  <span>Wanna Work with me?</span>
+  <span>Wanna Work with me?</span>
+  <span><div class="small-12 columns" id="startButtonDiv">
+    <a class="my-button form-button text-center" href="mailto:lorasharim@gmail.com">Contact Me</a>
+  </div></span>
+</h2>
+    
+    </div>
+  </section>
   </div>
-  </div>
+
   <script src="js/index.js"></script>
+  <script src="js/presentationEffect.js"></script>
   <script src="js/proyect.js"></script>
   <script src="js/menu.js"></script>
 </body>
 
-<h2 style="color: #f3d9de" class="footer text-center">
+<h3 style="color: #f3d9de" class="footer text-center">
   &copy;Indiana lora ~~ All rights reserved.
-</h2>
+</h3>
 
 </html>

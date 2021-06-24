@@ -3,7 +3,7 @@ const homeSection = document.getElementById("homeSection");
 const skills = document.getElementById("skills-a");
 const workSection = document.getElementById("workSkills");
 const projects = document.getElementById("projects-a");
-const projectsSection = document.getElementById("projectSection");
+const projectsSection = document.getElementById("proyects-section");
 const contact = document.getElementById("contact-a");
 const contactSection = document.getElementById("contactSection");
 
