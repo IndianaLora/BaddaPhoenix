@@ -96,8 +96,9 @@ body {
 }
 
 .skills {
-  background-color: #d8c6c6;
+  background-color: #070707;
   height: 800px;
+  
 }
 
 @media only screen and (max-width: 600px) {
